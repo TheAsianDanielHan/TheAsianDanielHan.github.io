@@ -1,0 +1,55 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.button {
+	font-family: calibri, arial;
+	background-color: #262626;
+	border: none;
+	color: #d9d9d9;
+ 	padding: 15px 20px;
+ 	text-align: center;
+	text-decoration: none;
+ 	display: inline-block;
+  	font-size: 15px;
+  	margin: 5px 5px;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+/*
+starting header code
+*/
+ul {
+	list-style-type: none;
+	margin: 0;
+ 	padding: 0;
+	overflow: hidden;
+	background-color: #191919;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border: 1px solid #191919;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #FFDC00;
+	color: #191919;
+}
+/*
+end header code
+*/
