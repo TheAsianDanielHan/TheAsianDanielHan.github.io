@@ -1,7 +1,7 @@
 body {
 	font-family: "Lato", sans-serif;
-	background-image: "trianglewhite.jpg";
-	background-repeat: repeat;
+	background-image: url(triangleblack.jpg);
+	background-size: 1920px 1080px;
 }
 
 .button {
