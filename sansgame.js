@@ -288,7 +288,7 @@ function scorePoints() {
 }
 
 function death() {
-	document.getElementById("textline").innerHTML = "you died lmao. score: " + String(score);
+	document.getElementById("textline").innerHTML = "you died lulW. score: " + String(score);
 }
 
 function scroll() {
@@ -402,3 +402,19 @@ function gameLoop() {
 //setInterval(gameLoop, 10);
 
 gameLoop();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ur mum lol
