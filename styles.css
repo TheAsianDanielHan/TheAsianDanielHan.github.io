@@ -1,0 +1,226 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    color: #30292f; /* Black text color */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    background-color: #fdf7fa; /* White background color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header and Footer Styles */
+header, footer {
+    font-family: "Montserrat", sans-serif;
+    background-color: #7b8cde; /* Blue color */
+    color: #30292f; /* Black text color */
+    padding: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+/* Header Title Style */
+header h1 a {
+    color: inherit; /* Inherit the color from its parent (in this case, black) */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #30292f; /* Black text color */
+}
+
+nav ul li a:hover {
+    color: #fdf7fa; /* Light blue */
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    flex: 1;
+}
+
+/* Encapsulated Styles */
+.encapsulated {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fdf7fa; /* White background color */
+}
+
+/* Sticky Header Styles */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Sticky Footer Styles */
+footer {
+    margin-top: auto;
+}
+
+/* Full Page Image Styles */
+.full-page-image {
+    background-image: url('home-image.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+.photo-credit {
+    color: #fdf7fa; /* White text color */
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Centered Text Styles */
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fdf7fa; /* White text color */
+}
+
+.centered-text h1 {
+    font-size: 64px;
+    margin-bottom: 5px;
+    font-style: italic;
+    color: #fdf7fa; /* White text color */
+}
+
+.centered-text a {
+    color: #fdf7fa;
+}
+
+.mission-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7b8cde; /* Blue color */
+    color: #fdf7fa; /* White text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Added margin to create space between the title and the button */
+}
+
+.mission-button:hover {
+    background-color: #4a5abf; /* Darker blue on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Quote Styles */
+.quote {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #30292f; /* Black text color */
+}
+
+/* Members Styles */
+.members {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.members h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #30292f; /* Black text color */
+}
+
+.members-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.member {
+    flex-basis: 45%;
+}
+
+.member img {
+    width: 600px; /* Adjust size as needed */
+    height: 600px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Section Styles */
+section {
+    width: calc(50% - 10px); /* Subtracting margin */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Adjusting to column layout */
+}
+
+/* Section Header Styles */
+section h2 {
+    margin-bottom: 10px; /* Add space between header and content */
+}
+
+/* Content Styles */
+.content {
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    border: 1px solid #ccc;
+    flex-grow: 1; /* Allow content to grow within the section */
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 10px; /* Add space between image and text */
+}
+
+.yappery {
+    padding: 20px;
+    display: block;
+}
